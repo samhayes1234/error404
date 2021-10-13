@@ -1,0 +1,20 @@
+body {
+    background-color: #bdbebf;
+  }
+  
+/*Detection Text*/
+  #canvas{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+  }
+  
+  /*Detection Video*/
+  #video{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:0;
+    border-radius: 10px;
+  }
